@@ -67,7 +67,7 @@ You can reach me here:
 ## Setup Instructions
 ```bash
 # Clone repository
-git clone [https://github.com/roshnisharma2811/FOSSEE-Internship-Project.git]
+git clone https://github.com/roshnisharma2811/FOSSEE-Internship-Project.git
 cd FOSSEE-Internship-Project
 
 # Create virtual environment
