@@ -1,0 +1,45 @@
+{% extends "workshop_app/base.html" %}
+
+{% block title %} Welcome | FOSSEE Workshops {% endblock %}
+
+{% block content %}
+<div class="hero-section">
+  <div class="overlay"></div>
+  <div class="hero-content text-center text-white">
+    <h1 class="display-4 fw-bold mb-3">Welcome to <span class="highlight">FOSSEE Workshops</span></h1>
+    <p class="lead mb-4">Explore, propose, and manage workshops with a clean and responsive UI.</p>
+    <a href="{% url 'statistics_app:public' %}" class="btn btn-lg btn-primary shadow">
+      🚀 View Workshop Statistics
+    </a>
+  </div>
+</div>
+
+
+<div class="container mt-5 why-choose">
+  <h2 class="text-center fw-bold">Why Choose Us?</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card feature-card animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="feature-icon">📊</div>
+        <h5>Insightful Analytics</h5>
+        <p>Track team performance and workshop statistics in real time.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card feature-card animate__animated animate__fadeInUp animate__delay-2s">
+        <div class="feature-icon">⚡</div>
+        <h5>Easy Proposals</h5>
+        <p>Submit workshop proposals quickly with a streamlined process.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card feature-card animate__animated animate__fadeInUp animate__delay-3s">
+        <div class="feature-icon">💡</div>
+        <h5>Designed by Roshni</h5>
+        <p>A polished, modern interface built with passion to stand out.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
